@@ -1,5 +1,5 @@
 import React from "react";
-import Kenji_Home from '../Kenji_Home.jpg';
+import Kenji_Home from '../photos/Kenji_Home.jpg';
 import "../styles.css";
 
 
@@ -9,16 +9,16 @@ function Home() {
       <div class="container">
         <div class="row align-items-center my-5">
             <img
-                class="photo img-fluid rounded mb-4 mb-lg-0"
+                class="home-photo img-fluid rounded mb-4 mb-lg-0"
                 src={Kenji_Home}
-                alt="Kenji home"
+                alt="Kenji Patterson"
             />
           <div class="col-lg-5">
             <h1 class="font-weight-light">Hello!</h1>
             <p>
               My name is Kenji. I am a 1.5 year old Formosan Mountain Dog.
               My parents rescued me in February of 2021. I'm a challenging boy,
-              but I hope I can help teach you the importance of rescuing dogs and gibing
+              but I hope I can help teach you the importance of rescuing dogs and giving
               them a forever home, but also how to help your rescue dog live a happy
               and fulfilling life. 
             </p>
