@@ -2,7 +2,6 @@ import React from "react";
 import Kenji_Home from '../photos/Kenji_Home.jpg';
 import "../styles.css";
 
-
 function Home() {
   return (
     <div className="home">
